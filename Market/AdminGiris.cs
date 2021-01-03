@@ -46,12 +46,13 @@ namespace Market
                 var m = new Form1();
                 m.Show();
                 this.Hide();
-                baglanti.Close();
+                
             }
             else
             {
                 MessageBox.Show("Hatalı giriş yaptınız. Tekrar Deneyiniz.");
             }
+            baglanti.Close();
         }
         private void panelLeft_Paint(object sender, PaintEventArgs e)
         {

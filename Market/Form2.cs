@@ -23,5 +23,26 @@ namespace Market
             m.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var m = new Form6();
+            m.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var m = new Form7();
+            m.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var m = new Form8();
+            m.Show();
+            this.Hide();
+        }
     }
 }

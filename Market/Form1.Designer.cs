@@ -66,9 +66,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(111, 130);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 22);
+            this.label1.Size = new System.Drawing.Size(148, 22);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Müşteri İşlemleri";
+            this.label1.Text = "Market İşlemleri";
             // 
             // button1
             // 

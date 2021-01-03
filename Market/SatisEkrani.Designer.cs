@@ -53,12 +53,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button19 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.panel1.Controls.Add(this.button19);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.button18);
             this.panel1.Controls.Add(this.button17);
             this.panel1.Controls.Add(this.button16);
@@ -312,7 +318,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
-     
             // 
             // label1
             // 
@@ -337,10 +342,36 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(586, 12);
+            this.listBox1.Location = new System.Drawing.Point(502, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(207, 355);
+            this.listBox1.Size = new System.Drawing.Size(291, 355);
             this.listBox1.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(197, 45);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(194, 20);
+            this.textBox2.TabIndex = 18;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(12, 43);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(165, 22);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Barkod Numarası";
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(274, 88);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(91, 31);
+            this.button19.TabIndex = 20;
+            this.button19.Text = "Ekle";
+            this.button19.UseVisualStyleBackColor = true;
             // 
             // SatisEkrani
             // 
@@ -358,6 +389,7 @@
             this.Name = "SatisEkrani";
             this.Text = "Satış Ekranı";
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,5 +422,8 @@
         private System.Windows.Forms.ListBox listBox1;
         public System.Windows.Forms.TextBox textBox1;
         public System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
